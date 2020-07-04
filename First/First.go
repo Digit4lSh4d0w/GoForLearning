@@ -1,18 +1,18 @@
 package main
 
-import(
-    "fmt"
+import (
+	"fmt"
 )
 
-func main(){
+func main() {
 
-    var name string
-    fmt.Println("Как тебя зовут?")
-    fmt.Scanf("%s\n, &name")
+	var name string
+	fmt.Println("Как тебя зовут?")
+	fmt.Scanf("%s\n", &name)
 
-    var age int
-    fmt.Println("Сколько тебе лет?")
-    fmt.Scanf("%d\n, &age")
+	var age int
+	fmt.Println("Сколько тебе лет?")
+	fmt.Scanf("%d\n", &age)
 
-    fmt.Println("Привет, %s, твой возраст - %d\n", name, age)
+	fmt.Printf("Привет, %s, твой возраст - %d\n", name, age)
 }
